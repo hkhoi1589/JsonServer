@@ -171,7 +171,7 @@
 		{
 			"id": 1,
 			"name": "All",
-			"pagination": 697
+			"pagination": 695
 		},
 		{
 			"id": 2,
@@ -6127,7 +6127,7 @@
 		{
 			"id": "chocolate-ganache-fudge-brownie",
 			"img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108595/chocolate-ganache-fudge-brownie.fb14f000098178f7520f89e167756deb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
-			"name": "Colts Chocolate",
+			"name": "Colts Chocolate Fudge Brownie",
 			"dsc": "Chocolate Ganache Fudge Brownie",
 			"price": 45,
 			"rate": 5,
@@ -6422,15 +6422,6 @@
 			"country": "Palestine, TX"
 		},
 		{
-			"id": "chocolate-marshmallows",
-			"img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108670/chocolate-marshmallows.a5bb2a6f0b25f6058e82e486bc34020b.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
-			"name": "Colts Chocolate",
-			"dsc": "Chocolate Marshmallows",
-			"price": 25,
-			"rate": 4,
-			"country": "Nashville, TN"
-		},
-		{
 			"id": "20363-triple-chocolate-cake",
 			"img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134638/triple-chocolate-cake.122224edae9326c45d6f08f343414bbf.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
 			"name": "Red Truck Bakery",
@@ -6703,7 +6694,7 @@
 		{
 			"id": "chocolate-marshmallows",
 			"img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108670/chocolate-marshmallows.a5bb2a6f0b25f6058e82e486bc34020b.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
-			"name": "Colts Chocolate",
+			"name": "Colts Chocolate Marshmallows",
 			"dsc": "Chocolate Marshmallows",
 			"price": 25,
 			"rate": 5,
@@ -7032,15 +7023,6 @@
 			"price": 49,
 			"rate": 4,
 			"country": "New York, NY"
-		},
-		{
-			"id": "dels-x-iggys-frozen-lemonade-mix",
-			"img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/136231/Iggys-Del-Lemonade-Mix-Product-1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
-			"name": "Iggy's",
-			"dsc": "Del's x Iggy's Frozen Lemonade Mix",
-			"price": 10,
-			"rate": 5,
-			"country": "Warwick, RI"
 		},
 		{
 			"id": "papaya-king-tropical-drink",
