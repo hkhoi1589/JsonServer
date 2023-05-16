@@ -16,6 +16,18 @@ const SocketServer = (socket) => {
 		}
 	});
 
+	// book table
+	socket.on('bookTable', (table) => {
+		console.log(table);
+		const admins = users.filter((user) => user.info.role === 'admin');
+
+		if (admins.length > 0) {
+			admins.forEach((admin) => {
+				socket.to(`${admin.socketId}`).emit('adminBookTable', table);
+			});
+		}
+	});
+
 	socket.on('disconnect', () => {
 		users = users.filter((user) => user.socketId !== socket.id);
 	});
