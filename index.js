@@ -1,20 +1,36 @@
 const jsonServer = require('json-server');
 const cors = require('cors');
 const path = require('path');
-const fs = require('fs');
-
+const SocketServer = require('./socketServer');
 const server = jsonServer.create();
-const db = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json')));
-const router = jsonServer.router(db);
+const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults();
 
 server.use(cors());
 server.use(jsonServer.bodyParser);
 server.use(middlewares);
+
+// Socket
+const http = require('http');
+const socketServer = http.createServer(server); // https server
+const { Server } = require('socket.io');
+const io = new Server(socketServer, {
+	cors: {
+		origin: '*',
+	},
+	//transports: ['websocket'],
+	//allowUpgrades: false,
+});
+
+// socket io
+io.on('connection', (socket) => {
+	SocketServer(socket);
+});
+
 server.use(router);
 
 const PORT = 8000;
 
-server.listen(PORT, () => {
-	console.log(`JSON Server is running on http://localhost:${PORT}`);
+socketServer.listen(PORT, () => {
+	console.log(`JSON Server and socket are running on http://localhost:${PORT}`);
 });
