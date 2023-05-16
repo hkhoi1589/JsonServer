@@ -18,7 +18,6 @@ const SocketServer = (socket) => {
 
 	// book table
 	socket.on('bookTable', (table) => {
-		console.log(table);
 		const admins = users.filter((user) => user.info.role === 'admin');
 
 		if (admins.length > 0) {
