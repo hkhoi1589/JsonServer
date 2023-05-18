@@ -18,8 +18,8 @@ const io = new Server(socketServer, {
 	cors: {
 		origin: 'http://localhost:3000',
 	},
-	transports: ['websocket'],
-	allowUpgrades: false,
+	//transports: ['websocket'],
+	//allowUpgrades: false,
 });
 
 // socket io
