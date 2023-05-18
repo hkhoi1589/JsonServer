@@ -16,11 +16,10 @@ const socketServer = http.createServer(server); // https server
 const { Server } = require('socket.io');
 const io = new Server(socketServer, {
 	cors: {
-		origin: '*',
+		origin: 'http://localhost:3000',
 	},
 	transports: ['websocket'],
 	allowUpgrades: false,
-	allowEIO3: true,
 });
 
 // socket io
