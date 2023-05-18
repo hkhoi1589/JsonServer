@@ -18,8 +18,8 @@ const io = new Server(socketServer, {
 	cors: {
 		origin: '*',
 	},
-	//transports: ['websocket'],
-	//allowUpgrades: false,
+	transports: ['websocket'],
+	allowUpgrades: false,
 	allowEIO3: true,
 });
 
