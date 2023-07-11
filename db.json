@@ -1,65 +1,62 @@
 {
-	"channel_list": {
-		"channels": [
-			{
-				"label": "Announcements",
-				"href": "/forum/announcements",
-				"mode": "Private",
-				"isJoinded": true,
-				"count": 11200,
-				"desc": "General announcements from Principal"
-			},
-			{
-				"label": "School Principal",
-				"href": "/forum/school-principal",
-				"mode": "Private",
-				"isJoinded": false,
-				"count": 30,
-				"desc": "Instructors info (description)"
-			},
-			{
-				"label": "Student",
-				"href": "/forum/student",
-				"mode": "Public",
-				"isJoinded": false,
-				"count": 11500,
-				"desc": "All student here"
-			},
-			{
-				"label": "Parent",
-				"href": "/forum/parent",
-				"mode": "Private",
-				"isJoinded": false,
-				"count": 200,
-				"desc": "Parents info"
-			},
-			{
-				"label": "Staff",
-				"href": "/forum/staff",
-				"mode": "Private",
-				"isJoinded": false,
-				"count": 70,
-				"desc": "Staff info"
-			},
-			{
-				"label": "Teacher",
-				"href": "/forum/teacher",
-				"mode": "Private",
-				"isJoinded": false,
-				"count": 11200,
-				"desc": "General announcements from Principal"
-			},
-			{
-				"label": "General",
-				"href": "/forum/general",
-				"mode": "Public",
-				"isJoinded": false,
-				"count": 200,
-				"desc": "General info"
-			}
-		],
-		"total": 7
-	},
+	"channels": [
+		{
+			"label": "Announcements",
+			"href": "/forum/announcements",
+			"mode": "Private",
+			"isJoinded": true,
+			"count": 11200,
+			"desc": "General announcements from Principal"
+		},
+		{
+			"label": "School Principal",
+			"href": "/forum/school-principal",
+			"mode": "Private",
+			"isJoinded": false,
+			"count": 30,
+			"desc": "Instructors info (description)"
+		},
+		{
+			"label": "Student",
+			"href": "/forum/student",
+			"mode": "Public",
+			"isJoinded": false,
+			"count": 11500,
+			"desc": "All student here"
+		},
+		{
+			"label": "Parent",
+			"href": "/forum/parent",
+			"mode": "Private",
+			"isJoinded": false,
+			"count": 200,
+			"desc": "Parents info"
+		},
+		{
+			"label": "Staff",
+			"href": "/forum/staff",
+			"mode": "Private",
+			"isJoinded": false,
+			"count": 70,
+			"desc": "Staff info"
+		},
+		{
+			"label": "Teacher",
+			"href": "/forum/teacher",
+			"mode": "Private",
+			"isJoinded": false,
+			"count": 11200,
+			"desc": "General announcements from Principal"
+		},
+		{
+			"label": "General",
+			"href": "/forum/general",
+			"mode": "Public",
+			"isJoinded": false,
+			"count": 200,
+			"desc": "General info"
+		}
+	],
 	"posts_list": [
 		{
 			"channelId": "-KsjPat5MWCx-dkjNVg8",
